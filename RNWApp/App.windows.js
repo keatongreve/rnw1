@@ -11,6 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
+import MyComponent from './src/MyComponent';
 
 const instructions =
   'Press Ctrl+R to reload,\n' +
@@ -29,6 +30,7 @@ export default class App extends Component<{}> {
         <Text style={styles.instructions}>
           {instructions}
         </Text>
+        <MyComponent />
       </View>
     );
   }
